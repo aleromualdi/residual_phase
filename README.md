@@ -5,6 +5,8 @@ Residual phase calculation from the linear prediction (LP) reidual of a wave sig
 
 # Usage
 
+Being y an array containing samples from a wave signal, the residual phase of the sampled wave can be obtained with
+
 ```
 from residualphase import ResidualPhase
 
