@@ -1,7 +1,9 @@
 # Residual Phase from LP residual
 
-Residual phase calculation from the linear prediction (LP) reidual of a wave signal. 
+Residual phase calculation from the linear prediction (LP) residual of a wave signal. <br>
 
+The calculation of LP residual is equal to the error between the original signal and the LP-predicted signal.
+From the LP residual, the residual phase is defined as the cosine of the phase function of the analytic signal.
 
 # Usage
 
@@ -16,7 +18,8 @@ res_phase = RP.calculate(y)
 
 # Plot
 
-Plot of the residual signal, as well as the original wave signal and the LP signal. 
+Plot of the original signal (y), LP-predicted signal (lp) and LP residual (r). 
+
 
 ![Image description](output/residual_signal.png)
 
