@@ -1,6 +1,6 @@
 # Residual Phase from LP residual
 
-Residual phase signal calculation from the linear prediction (LP) reidual of a wave signal. 
+Residual phase calculation from the linear prediction (LP) reidual of a wave signal. 
 
 
 # Usage
