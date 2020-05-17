@@ -10,10 +10,9 @@ From the LP residual, the residual phase is defined as the cosine of the phase f
 Being y an array containing samples from a wave signal, the residual phase of the sampled wave can be obtained with
 
 ```
-from residualphase import ResidualPhase
+from residualphase import residual_phase
 
-RP = ResidualPhase()
-res_phase = RP.calculate(y)
+res_phase = residual_phase(y)
 ```
 
 # Plot
