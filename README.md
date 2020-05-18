@@ -1,6 +1,6 @@
 # Residual Phase from LP residual
 
-Residual phase calculation from the linear prediction (LP) residual of a wave signal. <br>
+This repository contains a tool for the calculation of the residual phase from the linear prediction (LP) residual of a wave signal. <br>
 
 The calculation of LP residual is equal to the error between the original signal and the LP-predicted signal.
 From the LP residual, the residual phase is defined as the cosine of the phase function of the analytic signal.
