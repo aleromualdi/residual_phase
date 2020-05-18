@@ -17,7 +17,7 @@ res_phase = residual_phase(y)
 
 # Plot
 
-Plot of the original signal (y), LP-predicted signal (lp) and LP residual (r). 
+Plot of the original signal (y), LP-predicted signal (lp) and LP residual (residual). 
 
 
 ![Image description](output/residual_signal.png)
